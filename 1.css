@@ -1,0 +1,204 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Services section styles */
+  .services {
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+  
+  .services h2 {
+    margin-top: 0;
+  }
+  
+  .services ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .services li {
+    margin-right: 20px;
+  }
+  
+  .services img {
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  /* Top destinations section styles */
+  .top-destinations {
+    padding: 50px;
+  }
+  
+  .top-destinations h2 {
+    margin-top: 0;
+  }
+  
+  .top-destinations ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-destinations li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .top-destinations img {
+    height: 200px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .top-destinations p {
+    margin: 0;
+  }
+  
+  /* Book trip section styles */
+  .book-trip {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  .book-trip h2 {
+    margin-top: 0;
+  }
+  
+  .book-trip ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .book-trip li {
+    margin-bottom: 20px;
+  }
+  
+  .book-trip li::before {
+    content: "\2022";
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    padding: 50px;
+  }
+  
+  .testimonials h2 {
+    margin-top: 0;
+  }
+  
+  .testimonials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .testimonials li {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials img {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+  }
+  
+  .testimonials p {
+    margin: 0;
+  }
+  
+  .testimonials p:last-child {
+    margin-top: 10px;
+  }
+  
+  .testimonials blockquote {
+    font-style: italic;
+    margin: 0;
+  }
+  
+  /* Subscribe section styles */
+  .subscribe {
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+  
+  .subscribe h2 {
+    margin-top: 0;
+  }
+  
+  .subscribe label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .subscribe input[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .subscribe input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
